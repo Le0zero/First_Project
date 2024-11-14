@@ -92,10 +92,11 @@ const TransitApp = () => {
         <p className="text-lg">{'Barrie Transit'}</p>
       </div>
 
-      
-        <video className="h-555 max-w-300 object-contain" autoPlay="autoPlay" loop  muted>
+      <div className='w-64'>
+        <video className="object-cover" autoPlay="autoPlay" loop  muted>
           <source src={BusMP4} type="video/mp4" />
           </video>
+          </div>
       
 
       <button className="bg-red-500 text-white font-medium py-2 px-8 rounded-full mt-4">
