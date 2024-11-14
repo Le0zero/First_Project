@@ -31,7 +31,7 @@ const TransitApp = () => {
     return(
         <div>
             <p> {date.toLocaleDateString('en-US', options).replace(/,/g,'')}</p>
-            <p> {date.toLocaleTimeString()}</p>
+            <p className='mt-2'> {date.toLocaleTimeString()}</p>
 
         </div>
     )
@@ -81,32 +81,35 @@ const TransitApp = () => {
     </div>
   );
   const BusPass = () =>(
-  <div className='bg-white'>
-    <div className="flex flex-col items-center min-h-screen mb-1 bg-[#31658C] m-4 text-white rounded-3xl">
-      <div className="text-center m-4">
+  <div className='bg-white justify-items-center items-center p-3'>
+    <div className="flex flex-col items-center h-max mb-3 pb-12 bg-[#31658C] text-white rounded-3xl">
+      <div className="text-center m-10">
         <p className="text-lg font-normal">Student 10 Ride Card</p>
-        <p className="text-2xl font-bold mt-2">{DateTime()}</p>
+        <p className="text-2xl font-bold mt-1">{DateTime()}</p>
       </div>
 
-      <div className="text-center my-4">
+      <div className="text-center">
         <p className="text-lg">{'Barrie Transit'}</p>
       </div>
 
-      <div className=" h-555 w-370">
-        <video className=" object-cover" autoPlay="autoPlay" loop  muted>
+      
+        <video className="h-555 max-w-300 object-contain" autoPlay="autoPlay" loop  muted>
           <source src={BusMP4} type="video/mp4" />
           </video>
-      </div>
+      
 
       <button className="bg-red-500 text-white font-medium py-2 px-8 rounded-full mt-4">
         Expire
       </button>
 
       <div className="text-center mt-6">
-        <p className="text-lg font-semibold">This pass expires after {expiryTime} minutes</p>
+        <p className="text-2xl text-center font-semibold">This pass expires after {expiryTime} minutes</p>
         <p className="text-sm mt-2">User ID {userId}</p>
       </div>
     </div>
+    <button className="bg-red-500 text-white font-medium py-2 px-8 rounded-full mt-4">
+        Live Map
+      </button>
     </div>
   )
   const RouteSelectionScreen = () => (
