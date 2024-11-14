@@ -93,7 +93,7 @@ const TransitApp = () => {
       </div>
 
       <div>
-        <video height='200' width='310' autoPlay="autoPlay" loop  muted>
+        <video height='220' width='300' autoPlay="autoPlay" loop  muted>
           <source src={BusMP4} type="video/mp4" />
           </video>
           </div>
