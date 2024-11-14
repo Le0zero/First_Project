@@ -84,8 +84,8 @@ const TransitApp = () => {
   <div className='bg-white justify-items-center items-center p-3'>
     <div className="flex flex-col items-center h-max mb-3 pb-12 bg-[#31658C] text-white rounded-3xl">
       <div className="text-center m-10">
-        <p className="text-lg font-normal">Student 10 Ride Card</p>
-        <p className="text-2xl font-bold mt-1">{DateTime()}</p>
+        <p className="text-xl font-normal">Student 10 Ride Card</p>
+        <p className="text-3xl font-bold mt-1">{DateTime()}</p>
       </div>
 
       <div className="text-center">
