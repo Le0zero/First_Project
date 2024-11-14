@@ -92,8 +92,8 @@ const TransitApp = () => {
         <p className="text-lg">{'Barrie Transit'}</p>
       </div>
 
-      <div className='w-64'>
-        <video className="object-cover" autoPlay="autoPlay" loop  muted>
+      <div>
+        <video height='200' width='310' autoPlay="autoPlay" loop  muted>
           <source src={BusMP4} type="video/mp4" />
           </video>
           </div>
