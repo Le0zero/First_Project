@@ -3,17 +3,18 @@
 <svg width="42.449" height="79.168" version="1.1" viewBox="0 0 42.449 79.168" xmlns="http://www.w3.org/2000/svg" xmlnsSvg="http://www.w3.org/2000/svg">
  <g transform="matrix(1.1361 0 0 1.1361 -284.56 -1584.7)" stroke-width="2.0562">
   <g stroke-linecap="round" stroke-miterlimit="21">
-   <g stroke-width="1.2848">
-    <path d="m281.04 1411a11.096 10.018 0 0 0-5.2946-8.9305 11.096 10.018 0 0 0-11.217-0.1951 11.096 10.018 0 0 0-5.6716 8.7398h11.096z" fill="none" stroke="#000" style="paint-order:stroke markers fill"/>
-    <path d="m267.92 1410.8a2.0108 1.5737 0 0 1 2.0237-1.5239 2.0108 1.5737 0 0 1 1.9966 1.5457 2.0108 1.5737 0 0 1-1.9251 1.6002 2.0108 1.5737 0 0 1-2.0916-1.4666" stroke="#0c0c0c" style="paint-order:stroke markers fill"/>
-    <path d="m270.21 1410.7 4.3594-4.7745" stroke="#0c0c0c" style="paint-order:stroke markers fill"/>
+   <g stroke="#000">
+    <path d="m281.04 1411a11.096 10.018 0 0 0-5.2946-8.9305 11.096 10.018 0 0 0-11.217-0.1951 11.096 10.018 0 0 0-5.6716 8.7398h11.096z" fill="none" stroke-width="1.2848" style="paint-order:stroke markers fill"/>
+    <path d="m268.61 1410.6a1.3384 1.3384 0 0 1 1.347-1.2961 1.3384 1.3384 0 0 1 1.3289 1.3146 1.3384 1.3384 0 0 1-1.2814 1.361 1.3384 1.3384 0 0 1-1.3922-1.2474" stroke-linecap="round" stroke-miterlimit="21" stroke-width="1.0712" style="paint-order:stroke markers fill"/>
+    <path d="m271.28 1408.1 2.4471-2.6493-3.3504 6.141-1.4821-0.8086z" stroke-width=".62162" style="paint-order:stroke markers fill"/>
    </g>
    <g fill="none" stroke-width="1.5562">
-    <path d="m265.63 1439.3-0.16911 12.874h9.3271" stroke="#0c0c0c" style="paint-order:stroke markers fill"/>
-    <path d="m275.03 1452.2-0.0423-13.352" stroke="#0c0c0c" style="paint-order:stroke markers fill"/>
-    <path d="m270.07 1395.9c-0.19273 0-0.386-4e-4 -0.57812 0.01-9.089 0.3727-17.926 8.5734-15.295 20.295 1.6093 7.1702 3.8751 15.631 6.1484 19.961 1.3533 2.5773 6.4541 2.6767 9.5449 2.6289v0.084c2.8945 0.053 7.8686 0 9.168-2.6289 2.1434-4.3323 4.2796-12.798 5.7969-19.973 2.4804-11.728-5.8503-19.934-14.42-20.307-0.12141-0.01-0.24333-0.01-0.36524-0.01z" stroke="#000" style="paint-order:stroke markers fill"/>
+    <path d="m264.77 1436-0.16911 12.874h9.3271" stroke="#0c0c0c" style="paint-order:stroke markers fill"/>
+    <path d="m274.17 1448.9-0.0423-13.352" stroke="#0c0c0c" style="paint-order:stroke markers fill"/>
+    <path d="m270.07 1395.9c-0.1931 0-0.38675-3e-4 -0.57924 0.01-9.1066 0.3433-17.961 7.8969-15.325 18.693 1.6124 6.6044 3.8826 14.398 6.1603 18.386 1.3559 2.374 6.4666 2.4655 9.5634 2.4215v0.077c2.9001 0.049 7.8838 0 9.1858-2.4215 2.1475-3.9904 4.2879-11.788 5.8081-18.397 2.4852-10.802-5.8616-18.361-14.448-18.704-0.12165-0.01-0.24381-0.01-0.36595-0.01z" stroke="#000" stroke-width="1.495" style="paint-order:stroke markers fill"/>
    </g>
-   <text x="264.75906" y="1431.6761" fill="#0c0c0c" font-size="17.2px" stroke="#000000" stroke-width=".8239" style="paint-order:stroke markers fill" xml:space="preserve"><tspan x="264.75906" y="1431.6761" font-family="Verdana" stroke="#000000" stroke-width=".8239">P</tspan></text>
+   <text x="264.00281" y="1428.7817" fill="#0c0c0c" font-size="19.214px" stroke="#000000" stroke-width=".145" style="paint-order:stroke markers fill" xml:space="preserve"><tspan x="264.00281" y="1428.7817" font-family="Verdana" stroke="#000000" stroke-width=".145">P</tspan></text>
+   <text x="307.37521" y="1417.8286" fill="#000000" font-family="Sans" font-size="10.562px" stroke="#000000" stroke-linecap="round" stroke-miterlimit="21" stroke-width="1.0712" style="paint-order:stroke markers fill" xml:space="preserve"><tspan x="307.37521" y="1417.8286" stroke-width="1.0712"/></text>
   </g>
  </g>
 </svg>

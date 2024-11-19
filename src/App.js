@@ -86,8 +86,8 @@ const TransitApp = () => {
     </div>
   );
   const BusPass = () =>(
-  <div className='bg-white justify-items-center items-center p-0'>
-    <div className="flex flex-col items-center h-max mb-3 pb-12 px-2 bg-[#31658C] text-white rounded-3xl">
+  <div className='bg-white justify-items-center items-center p-4'>
+    <div className="flex flex-col items-center h-max w-full w-mb-3 pb-12 px-2 bg-[#31658C] text-white rounded-3xl">
       <div className="text-center m-12">
         <p className="text-xl font-normal">Student 10 Ride Card</p>
         <p className="text-3xl font-bold mt-2">{DateTime()}</p>
@@ -196,30 +196,30 @@ const TransitApp = () => {
       {currentScreen === 'home' ? <HomeScreen /> : currentScreen === 'routeSelection' ? <RouteSelectionScreen /> : <BusPass />}
 
       {/* Navigation Bar */}
-<div className="flex justify-around items-center p-4 bg-white border-t border-gray-200 sticky bottom-0 z-10">
+<div className="flex justify-around items-center p-0 pt-2 bg-white border-t border-gray-200 sticky bottom-0 z-10">
 <div>
   <button className="flex flex-col items-center justify-center text-gray-600 w-12 h-12 rounded-full bg-cyan-300 bg-opacity-10 ">
-  <HomeSVG height='25px' className='svgIMG' />
+  <HomeSVG height='23px' className='svgIMG' />
   </button>
-    <span className="text-xs mt-1 ml-2">Home</span>
+    <span className="text-xs text-gray-600 mt-1 ml-2">Home</span>
   </div>
   <div>
   <button className="flex flex-col items-center justify-center text-gray-600 w-12 h-12 rounded-full bg-cyan-300 bg-opacity-10">
-  <Parking height='39px' className='svgIMG' />
+  <Parking height='37px' className='svgIMG' />
   </button>
-    <span className="text-xs mt-1 ml-2" >Parking</span>
+    <span className="text-xs text-gray-600 mt-1 ml-2" >Parking</span>
   </div>
   <div>
-  <button className="flex flex-col items-center justify-center text-cyan-500 w-12 h-12 rounded-full bg-teal-400 bg-opacity-70 shadow-lg">
-  <Transit height='30px' className='svgIMG' />
+  <button className="flex flex-col items-center justify-center text-cyan-500 w-12 h-12 rounded-full bg-cyan-500 bg-opacity-70 shadow-lg">
+  <Transit height='32px' className='svgIMG' />
   </button>
-    <span className="text-xs mt-1 ml-2">Transit</span>
+    <span className="text-xs text-gray-600 mt-1 ml-2">Transit</span>
   </div>
   <div>
   <button className="flex flex-col items-center justify-center text-gray-600 w-12 h-12 rounded-full bg-cyan-300 bg-opacity-10">
-  <Permits height='25px' className='svgIMG' />
+  <Permits height='20px' className='svgIMG' />
   </button>
-    <span className="text-xs mt-1 ml-2">Permits</span>
+    <span className="text-xs text-gray-600 mt-1 ml-2">Permits</span>
   </div>
 </div>
     </div>
