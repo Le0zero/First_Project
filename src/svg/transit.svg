@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="82.32" height="79.36" version="1.1" viewBox="0 0 82.32 79.36" xmlns="http://www.w3.org/2000/svg" xmlnsSvg="http://www.w3.org/2000/svg">
+ <g transform="matrix(1.3288 0 0 1.3288 4.341 .81869)" stroke="#000">
+  <g stroke="#000" stroke-linecap="round" stroke-miterlimit="21">
+   <g stroke="#000">
+    <g stroke="#000" stroke-width="1.7527">
+     <g stroke="#fff">
+      <rect x="10.584" y="5.7558" width="34.88" height="8.4048" fill="none" stroke-width="1.7527" style="paint-order:stroke markers fill"/>
+      <g fill="#fff">
+       <ellipse cx="15.044" cy="37.508" rx="1.9101" ry="1.8694" stroke-width="1.7527" style="paint-order:stroke markers fill"/>
+       <ellipse cx="40.685" cy="37.608" rx="1.9101" ry="1.8694" stroke-width="1.7527" style="paint-order:stroke markers fill"/>
+       <ellipse cx="9.675" cy="37.472" rx=".77612" ry=".75961" stroke-width="1.4652" style="paint-order:stroke markers fill"/>
+       <ellipse cx="45.633" cy="37.402" rx=".77612" ry=".75961" stroke-width="1.4652" style="paint-order:stroke markers fill"/>
+       <rect x="22.391" y="36.84" width="10.002" height="1.5192" ry=".75956" stroke-width="1.7527" style="paint-order:stroke markers fill"/>
+      </g>
+      <g fill="none" stroke-width="1.7527">
+       <rect x="9.5766" y="16.898" width="36.809" height="15.447" style="paint-order:stroke markers fill"/>
+       <path d="m12.452 2.0059h30.762a6.8284 6.8284 0 0 1 6.8284 6.8284v34.398h-44.397v-34.419a6.8073 6.8073 0 0 1 6.8073-6.8073z" style="paint-order:stroke markers fill"/>
+       <rect x="4.2236" y="43.212" width="47.319" height="7.7112" ry="1.7937" style="paint-order:stroke markers fill"/>
+       <path d="m16.921 50.94h-7.8437a4.0059 4.0059 0 0 0-0.0977 0.7461 4.0059 4.0059 0 0 0 4.0059 4.0058 4.0059 4.0059 0 0 0 4.0059-4.0058 4.0059 4.0059 0 0 0-0.0703-0.7461z" style="paint-order:stroke markers fill"/>
+       <path d="m47.302 50.905h-7.4369a4.0406 3.5591 0 0 0-0.34081 1.3535 4.0406 3.5591 0 0 0 4.0405 3.5591 4.0406 3.5591 0 0 0 4.0405-3.5591 4.0406 3.5591 0 0 0-0.30339-1.3535z" style="paint-order:stroke markers fill"/>
+      </g>
+      <g fill="#fff" stroke-width="1.7527">
+       <rect x=".38516" y="23.779" width="2.0029" height="5.7098" ry="0" style="paint-order:stroke markers fill"/>
+       <rect x="53.793" y="23.678" width="2.0029" height="5.7098" ry="0" style="paint-order:stroke markers fill"/>
+       <rect transform="rotate(89.715)" x="26.302" y="-54.512" width="1.3878" height="3.9561" ry="0" style="paint-order:stroke markers fill"/>
+       <rect transform="rotate(89.715)" x="26.393" y="-5.4149" width="1.3878" height="3.9561" ry="0" style="paint-order:stroke markers fill"/>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

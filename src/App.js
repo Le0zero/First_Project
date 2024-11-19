@@ -1,7 +1,12 @@
 import React, {useState, useEffect} from 'react';
-import BusMP4 from './bus.mp4'
+import BusMP4 from './bus.gif'
 import BusImage from './bus.jpeg'
-import { Home, ParkingCircle, Bus, UserSquare2, Settings, ChevronLeft } from 'lucide-react';
+import { ReactComponent as Parking } from './svg/parking.svg';
+import { ReactComponent as HomeSVG } from './svg/home.svg';
+import { ReactComponent as Transit } from './svg/transit.svg';
+import { ReactComponent as Permits } from './svg/permits.svg';
+import './App.css'
+import {Settings, ChevronLeft } from 'lucide-react';
  // Placeholder for expiry time
   
 const TransitApp = () => {
@@ -31,7 +36,7 @@ const TransitApp = () => {
     return(
         <div>
             <p> {date.toLocaleDateString('en-US', options).replace(/,/g,'')}</p>
-            <p className='mt-2'> {date.toLocaleTimeString()}</p>
+            <p className='mt-3'> {date.toLocaleTimeString()}</p>
 
         </div>
     )
@@ -81,21 +86,21 @@ const TransitApp = () => {
     </div>
   );
   const BusPass = () =>(
-  <div className='bg-white justify-items-center items-center p-5'>
-    <div className="flex flex-col items-center h-max mb-3 pb-12 bg-[#31658C] text-white rounded-3xl">
-      <div className="text-center m-14">
+  <div className='bg-white justify-items-center items-center p-0'>
+    <div className="flex flex-col items-center h-max mb-3 pb-12 px-2 bg-[#31658C] text-white rounded-3xl">
+      <div className="text-center m-12">
         <p className="text-xl font-normal">Student 10 Ride Card</p>
         <p className="text-3xl font-bold mt-2">{DateTime()}</p>
       </div>
 
       <div className="text-center">
-        <p className="text-lg">{'Barrie Transit'}</p>
+        <p className="text-lg mt-2 mb-0">{'Barrie Transit'}</p>
       </div>
 
-      <div>
-        <video height='220' width='300' autoPlay="autoPlay" loop  muted>
-          <source src={BusMP4} type="video/mp4" />
-          </video>
+      <div className='mt-0'>
+        
+          <img className='h-52 w-72 filter contrast-110' src={BusMP4} />
+         
           </div>
       
 
@@ -104,8 +109,8 @@ const TransitApp = () => {
       </button>
 
       <div className="text-center mt-6">
-        <p className="text-2xl text-center font-semibold">This pass expires after {expiryTime} minutes</p>
-        <p className="text-sm mt-2">User ID {userId}</p>
+        <p style={{fontSize: "19px"}} className="leading-7 text-center font-bold w-72">This pass expires after {expiryTime} minutes</p>
+        <p className="text-sm mt-px">User ID {userId}</p>
       </div>
     </div>
     <button className="bg-red-500 text-white font-medium py-2 px-8 rounded-full mt-4">
@@ -169,7 +174,7 @@ const TransitApp = () => {
   return (
     <div className="flex flex-col min-h-screen bg-gray-50">
       {/* Header */}
-      <div className="flex items-center justify-between p-4 bg-white ">
+      <div className="flex items-center justify-between p-4 pb-3 bg-white sticky top-0 ">
         <div className="flex items-center">
           <button className="p-2 mr-2">
             <div className="space-y-1">
@@ -179,7 +184,7 @@ const TransitApp = () => {
             </div>
           </button>
           <button onClick={() => setCurrentScreen('home')}>
-            <ChevronLeft size={24} />
+            <ChevronLeft size={26} />
           </button>
         </div>
         {currentScreen === 'routeSelection' && (
@@ -194,27 +199,27 @@ const TransitApp = () => {
 <div className="flex justify-around items-center p-4 bg-white border-t border-gray-200 sticky bottom-0 z-10">
 <div>
   <button className="flex flex-col items-center justify-center text-gray-600 w-12 h-12 rounded-full bg-cyan-300 bg-opacity-10 ">
-    <Home size={24} />
+  <HomeSVG height='25px' className='svgIMG' />
   </button>
-    <span className="text-xs mt-1">Home</span>
+    <span className="text-xs mt-1 ml-2">Home</span>
   </div>
   <div>
   <button className="flex flex-col items-center justify-center text-gray-600 w-12 h-12 rounded-full bg-cyan-300 bg-opacity-10">
-    <ParkingCircle size={24} />
+  <Parking height='39px' className='svgIMG' />
   </button>
-    <span className="text-xs mt-1">Parking</span>
+    <span className="text-xs mt-1 ml-2" >Parking</span>
   </div>
   <div>
-  <button className="flex flex-col items-center justify-center text-cyan-500 w-12 h-12 rounded-full bg-cyan-300 bg-opacity-50 shadow-lg">
-    <Bus size={24} />
+  <button className="flex flex-col items-center justify-center text-cyan-500 w-12 h-12 rounded-full bg-teal-400 bg-opacity-70 shadow-lg">
+  <Transit height='30px' className='svgIMG' />
   </button>
-    <span className="text-xs mt-1">Transit</span>
+    <span className="text-xs mt-1 ml-2">Transit</span>
   </div>
   <div>
   <button className="flex flex-col items-center justify-center text-gray-600 w-12 h-12 rounded-full bg-cyan-300 bg-opacity-10">
-    <UserSquare2 size={24} />
+  <Permits height='25px' className='svgIMG' />
   </button>
-    <span className="text-xs mt-1">Permits</span>
+    <span className="text-xs mt-1 ml-2">Permits</span>
   </div>
 </div>
     </div>
