@@ -46,3 +46,7 @@
     transform: rotate(360deg);
   }
 }
+.bus{
+height: 200px;
+width: 300px;
+}

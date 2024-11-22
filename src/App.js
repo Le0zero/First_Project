@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import BusMP4 from './bus.gif'
+import BusMP4 from './bus.mp4'
 import BusImage from './bus.jpeg'
 import { ReactComponent as Parking } from './svg/parking.svg';
 import { ReactComponent as HomeSVG } from './svg/home.svg';
@@ -99,7 +99,7 @@ const TransitApp = () => {
 
       <div className='mt-0'>
         
-          <img className='h-52 w-72 filter contrast-110' src={BusMP4} />
+          <video className='bus filter contrast-110' type="vide/mp4" autoPlay loop src={BusMP4} />
          
           </div>
       
@@ -199,15 +199,15 @@ const TransitApp = () => {
 <div className="flex justify-around items-center p-0 pt-2 bg-white border-t border-gray-200 sticky bottom-0 z-10">
 <div>
   <button className="flex flex-col items-center justify-center text-gray-600 w-12 h-12 rounded-full bg-cyan-300 bg-opacity-10 ">
-  <HomeSVG height='23px' className='svgIMG' />
+  <HomeSVG height='25px' className='svgIMG ' />
   </button>
     <span className="text-xs text-gray-600 mt-1 ml-2">Home</span>
   </div>
   <div>
   <button className="flex flex-col items-center justify-center text-gray-600 w-12 h-12 rounded-full bg-cyan-300 bg-opacity-10">
-  <Parking height='37px' className='svgIMG' />
+  <Parking height='40px' className='svgIMG mt-3' />
   </button>
-    <span className="text-xs text-gray-600 mt-1 ml-2" >Parking</span>
+    <span className="text-xs text-gray-600 " >Parking</span>
   </div>
   <div>
   <button className="flex flex-col items-center justify-center text-cyan-500 w-12 h-12 rounded-full bg-cyan-500 bg-opacity-70 shadow-lg">
