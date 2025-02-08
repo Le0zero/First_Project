@@ -14,7 +14,7 @@ const TransitApp = () => {
   const [transitPasses, setTransitPasses] = React.useState(1);
   const [selectedCity, setSelectedCity] = React.useState('Barrie');
   const [passUsesLeft, setPassUsesLeft] = React.useState(6);
-  const [expiryTime, setExpiryTime] = React.useState('149');
+  const [expiryTime, setExpiryTime] = React.useState('55');
   const userId = '1111152082';
   const DateTime = () => {
 
