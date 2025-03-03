@@ -14,7 +14,7 @@ const TransitApp = () => {
   const [transitPasses, setTransitPasses] = React.useState(1);
   const [selectedCity, setSelectedCity] = React.useState('Barrie');
   const [passUsesLeft, setPassUsesLeft] = React.useState(6);
-  const [expiryTime, setExpiryTime] = React.useState('55');
+  const [expiryTime, setExpiryTime] = React.useState('89');
   const userId = '1111152082';
   const DateTime = () => {
 
@@ -87,9 +87,9 @@ const TransitApp = () => {
   );
   const BusPass = () =>(
   <div className='bg-white justify-items-center items-center p-4'>
-    <div className="flex flex-col items-center h-max w-full w-mb-3 pb-12 px-2 bg-[#31658C] text-white rounded-3xl">
+    <div className="flex flex-col items-center h-max w-full w-mb-3 pb-12 px-2 bg-[#a53f66] text-white rounded-3xl">
       <div className="text-center m-12">
-        <p className="text-xl font-normal">Student 10 Ride Card</p>
+        <p className="text-xl font-normal">Adult 10 Ride Card</p>
         <p className="text-3xl font-bold mt-2">{DateTime()}</p>
       </div>
 
@@ -145,7 +145,7 @@ const TransitApp = () => {
         <div className="text-center mb-4">
           <p className="text-gray-600 mb-2">My Pass</p>
           <div className="flex items-center justify-center">
-            <span className="text-red-500 text-xl font-medium">Student 10 Ride Card</span>
+            <span className="text-red-500 text-xl font-medium">Adult 10 Ride Card</span>
             <Settings className="ml-2 text-red-500" size={20} />
           </div>
           <p className="text-gray-600 text-sm mt-2">
