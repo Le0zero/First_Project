@@ -113,7 +113,7 @@ const TransitApp = () => {
         <p className="text-sm mt-px">User ID {userId}</p>
       </div>
     </div>
-    <button className="bg-red-500 text-white font-medium py-2 px-8 rounded-full mt-4">
+    <button className="bg-red-500 text-white font-medium py-2 px-8 rounded-full mt-4 items-center justify-center">
         Live Map
       </button>
     </div>
